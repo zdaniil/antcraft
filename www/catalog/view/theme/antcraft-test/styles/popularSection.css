@@ -1,0 +1,34 @@
+.lable1,
+.lable2,
+.lable3,
+.lable4{font-size:1em;font-weight:bold;line-height:30px;width:85px;height:30px;transition:all 0.3s ease-in-out;text-align:center;text-transform:uppercase;color:#fff;}
+.lable1{background:#69c464;}
+.lable2{background:#fe6017;}
+.lable3{position:absolute;background:#00b4ab;}
+.popular-cont{overflow:hidden;max-width:1170px;margin:0 auto;background:#fff;}
+.popular-cont h1,
+.in-action h1,
+.brands h1,
+.reviews h1,
+.contacts h1{font-family:"LatoBold", sans-serif;font-size:28px;font-weight:bold;text-align:center;text-transform:uppercase;}
+.popular-cont h1{padding-bottom:30px;}
+.popular-slider{width:100%;}
+.popular-box{position:relative;width:300px;min-height:300px;padding:30px 15px;transition:all 0.3s ease-in;border:1px transparent solid !important;flex-grow:1;}
+.popular-box:hover{border:1px black solid !important;}
+.popular-slider .lable1{color:#fff;}
+.popular-slider .one:hover .lable3{width:200px;background:rgb(0, 180, 171);}
+.popular-slider .three:hover .lable1{width:200px;background:rgb(105, 196, 100,);}
+.popular-slider .four:hover .lable2{width:200px;background:rgb(254, 96, 23);}
+.popular-box span,
+.popular-box p,
+.popular-box-catalog span,
+.popular-box-catalog p{font-size:1em;color:#000;}
+.popular-box p{line-height:16px;margin-bottom:0;}
+.product-name{display:inline-block;margin-top:30px;}
+.short-title{margin-bottom:10px !important;}
+.product-price{font-size:1.25em !important;font-weight:bold;margin-top:20px;}
+.old-product-price{font-size:0.875em !important;font-weight:bold;margin-top:-5px;margin-left:5px;text-decoration:line-through;color:#828282 !important;}
+.diff-product-properties{color:#fe6017 !important;}
+.in-the-basket{position:relative;float:right;width:100px;height:20px;cursor:pointer;transition:all 0.3s ease-in;opacity:0;}
+.in-the-basket:hover{cursor:pointer;}
+.basket-image{display:inline-block;width:15px;height:18px;margin-right:15px;margin-bottom:-6px;background:url(../imgs/block3/basket.png) no-repeat;}

@@ -1,0 +1,90 @@
+.bx-wrapper .bx-controls-direction a{
+    transition: .45s;
+}
+
+.popular-cont .bx-prev, .bx-wrapper .bx-prev, .brands .bx-prev{
+	opacity: .8;
+	left: 1.5%;
+}
+
+.popular-cont .bx-next, .bx-wrapper .bx-next, .brands .bx-next{
+	opacity: .8;
+	right: 1%;
+}
+
+.bx-wrapper .bx-prev, .reviews .bx-prev{
+	background: url(../imgs/arrow_left.png) no-repeat;
+}
+
+.bx-wrapper .bx-next, .reviews .bx-next{
+	background: url(../imgs/arrow_right.png) no-repeat;
+}
+
+.popular-cont .bx-prev, .brands .bx-prev {
+	background: url(../imgs/arrow_left_normal.png) no-repeat;
+}
+
+.popular-cont .bx-next, .brands .bx-next{
+	background: url(../imgs/arrow_right_normal.png) no-repeat;
+}
+
+.reviews .bx-prev:hover, .bx-wrapper .bx-prev:hover, .reviews .bx-prev:hover, .popular-cont .bx-prev:hover, .brands .bx-prev:hover{
+	background: url(../imgs/arrow-left-orange.png) no-repeat;
+}
+.reviews .bx-next:hover, .bx-wrapper .bx-next:hover, .reviews .bx-next:hover, .popular-cont .bx-next:hover, .brands .bx-next:hover{
+	background: url(../imgs/arrow-right-orange.png) no-repeat;
+}
+
+
+
+
+.main-slider-cont .bx-viewport{
+	height: 465px!important;
+}
+
+@media screen and (max-width: 991px) {
+	.popular-cont .bx-prev, .bx-wrapper .bx-prev{
+		left: 1%;
+	}
+
+	.popular-cont .bx-next, .bx-wrapper .bx-next{
+		right: -1.5%;
+	}
+}
+
+
+.popular-cont .bx-prev:hover, .popular-cont .bx-next:hover{
+	opacity: 1;
+}
+
+.product-left .bx-prev{
+	background: url(../imgs/arrow-left-orange.png) no-repeat;
+	opacity: .9;
+	left: -8%;
+}
+
+.product-left .bx-next{
+	background: url(../imgs/arrow-right-orange.png) no-repeat;
+	opacity: .9;
+	left: 98%;
+}
+
+/*.product-left .bx-prev:hover, .product-left .bx-next:hover, .bx-wrapper .bx-next:hover, .bx-wrapper .bx-prev:hover {
+	opacity: 1;
+}*/
+
+/*.reviews .bx-prev {
+	background: url(../imgs/arrow-left.png) no-repeat;
+}
+*/
+.reviews .bx-prev:hover {
+	background: url(../imgs/arrow-left-orange.png) no-repeat;
+}
+
+/*.reviews .bx-next {
+	background: url(../imgs/arrow-right.png) no-repeat;
+}
+*/
+.reviews .bx-next:hover {
+	background: url(../imgs/arrow-right-orange.png) no-repeat;
+}
